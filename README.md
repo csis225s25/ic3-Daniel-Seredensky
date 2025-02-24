@@ -6,6 +6,11 @@ Doing everything from a command prompt or Git Bash (no IDEs allowed), your missi
 
 
 **Changes to code**
+static JComboBox cBox1;
+static JComboBox<String> cBox1;
+cBox1 = new JComboBox(s1);
+cBox1 = new JComboBox<String>(s1);
 
 
 **What caused it to stop working?**
+Java is a strong typed language, it needs info on the type
